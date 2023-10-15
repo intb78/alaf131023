@@ -45,7 +45,7 @@ var i;
 for (i = 0; i <100; i ++ )  {
 
 document.write(i);
-}*/
+}
 
 var number;
 var i;
@@ -53,7 +53,13 @@ number= window.prompt("Enter a number: ");
 number1= parseInt(number);
 for (i = 0; i<11; i++) {
   document.write(number1 + "*" + i+"="+ (number1 * i) + "<br>");
+}*/
+function changecolor() {
+  document.bgColor= "#00FF00";
 }
 </script>
+<form>
+<button type = "button" onclick="changecolor()"> Change Color</button>
+</form>
 </body>
 </html>
