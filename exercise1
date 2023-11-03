@@ -1,0 +1,108 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMfmU5ybv4RWVhHbtExHsji",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/intb78/alaf131023/blob/main/exercise1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AyW5lOUedzFX",
+        "outputId": "ab3adce9-07b7-4a29-ad03-a7ddf2c3ab15"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "4\n"
+          ]
+        }
+      ],
+      "source": [
+        "x= 4\n",
+        "print(x)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x= \"alaf\"\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "p7N4domGeBie",
+        "outputId": "81ead511-fb2a-4aa9-c54e-3710f75827d0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "alaf\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "height= float(input(\"Please enter the height: \"))\n",
+        "width= float(input(\"Please enter the width: \"))\n",
+        "area = height * width\n",
+        "print(f'The area is {area}')\n",
+        "print(\"The area is: \", area)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BmnKk-Z8eIh2",
+        "outputId": "ac6b8651-3ef3-4f38-b80b-5624e44196d4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Please enter the height: 120\n",
+            "Please enter the width: 130\n",
+            "The area is 15600.0\n",
+            "The area is:  15600.0\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
